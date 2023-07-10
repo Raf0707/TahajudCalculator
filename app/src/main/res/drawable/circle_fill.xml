@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/baseline_circle_24">
+
+    <target
+        android:name="circle"
+        android:animation="@anim/fill_anim"/>
+
+</animated-vector>
