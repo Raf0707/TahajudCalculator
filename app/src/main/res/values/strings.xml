@@ -44,6 +44,7 @@
     <string name="Milly_sec">\ ms\</string>
     <string name="CompleteTsel">Цель достигнута! Да вознаградит вас Аллах!</string>
     <string name="title_activity_counter_main">CounterMainActivity</string>
+    <string name="pamyatka">Если поля не заполнены, то их надо заполнить. Для расчета непобходимо заполнить либо все поля для молитвы Духа, либо все для Тахаджуда. Если же поля заполнены неправильно, то введите время в формате чч:мм, часы от 0 до 24, минуты от 0 до 60. В поле "часы" не должно вводиться число меньше нуля и больше 24, а в поле "минуты" не додлжно вводиться число меньше нуля и больше 60. В противном случае данные будут удалены. Заполняйте поля правильно!</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>

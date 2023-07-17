@@ -54,18 +54,18 @@
                                 android:src="@drawable/tahajud_calculator" />
 
                             <LinearLayout
-                                android:layout_width="240dp"
-                                android:layout_height="120dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
                                 android:layout_gravity="center|center_vertical"
                                 android:orientation="vertical"
                                 android:padding="8dp">
 
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:text="Tahajud Calculator"
-                                    android:textSize="20sp"
+                                    android:textSize="40sp"
                                     android:textStyle="bold" />
 
                                 <TextView
@@ -73,7 +73,7 @@
                                     android:layout_height="50dp"
                                     android:gravity="center"
                                     android:text="@string/from_tabiin"
-                                    android:textSize="20sp"
+                                    android:textSize="40sp"
                                     android:textStyle="bold" />
                             </LinearLayout>
                         </LinearLayout>
@@ -91,10 +91,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/version"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/ic_baseline_error_outline_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/sourceCodeBtn"
@@ -103,10 +103,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/source_code"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/ic_baseline_code_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/donateBtn"
@@ -115,10 +115,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="Поддержать автора"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/baseline_donate_on_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                         </LinearLayout>
                     </LinearLayout>
@@ -147,10 +147,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="@string/Raf_title"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/ic_baseline_person_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp"
+                                app:iconSize="44dp"
                                 android:textAlignment="textStart"
                                 style="@style/Widget.Material3.Button.TextButton" />
 
@@ -159,10 +159,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="@string/raf_android_dev_mail_ru"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/baseline_alternate_email_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp"
+                                app:iconSize="44dp"
                                 android:textAlignment="textStart"
                                 style="@style/Widget.Material3.Button.TextButton" />
 
@@ -171,10 +171,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Оценить приложение"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/ic_baseline_rate_review_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp"
+                                app:iconSize="44dp"
                                 android:textAlignment="textStart"
                                 style="@style/Widget.Material3.Button.TextButton" />
 
@@ -185,10 +185,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="Мы в VK"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/i_vk"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/tgGroupBtn"
@@ -197,19 +197,19 @@
                                 android:layout_height="wrap_content"
                                 android:text="Мы в Telegram"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/i_tg"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/otherAppsBtn"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Другие Приложения"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/ic_baseline_apps_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp"
+                                app:iconSize="44dp"
                                 android:textAlignment="textStart"
                                 style="@style/Widget.Material3.Button.TextButton" />
 
@@ -220,11 +220,11 @@
                                 android:layout_height="wrap_content"
                                 android:text="Настройки"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/baseline_settings_24"
                                 android:onClick="buttonPressed"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                         </LinearLayout>
                     </LinearLayout>
@@ -283,7 +283,7 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:text="Umma Life"
-                                    android:textSize="20sp"
+                                    android:textSize="40sp"
                                     android:textStyle="bold" />
 
                                 <TextView
@@ -291,7 +291,7 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:text="Новая социальная сеть для мусульман"
-                                    android:textSize="20sp"
+                                    android:textSize="40sp"
                                     android:textStyle="bold" />
                             </LinearLayout>
                         </LinearLayout>
@@ -309,10 +309,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="Скачать в Google Play"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/google_play_store_svgrepo_com"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/vkUmmaLife"
@@ -321,10 +321,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="VK-группа"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/i_vk"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/tgUmmaLife"
@@ -333,10 +333,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="Telegram-группа"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/i_tg"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/webUmmaLife"
@@ -345,10 +345,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="Сайт"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/baseline_public_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/weAreInUmmaLife"
@@ -357,10 +357,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="Мы в Umma Life"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/al_asma_ul_husna"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                         </LinearLayout>
                     </LinearLayout>
@@ -401,7 +401,7 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:text="Al Asma Ul Husna"
-                                    android:textSize="20sp"
+                                    android:textSize="40sp"
                                     android:textStyle="bold" />
 
                                 <TextView
@@ -409,7 +409,7 @@
                                     android:layout_height="50dp"
                                     android:gravity="center"
                                     android:text="@string/from_tabiin"
-                                    android:textSize="20sp"
+                                    android:textSize="40sp"
                                     android:textStyle="bold" />
                             </LinearLayout>
                         </LinearLayout>
@@ -427,10 +427,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="Версия: 6.0.0.0"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/ic_baseline_error_outline_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/sourceCodeBtnNames"
@@ -439,10 +439,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/source_code"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/ic_baseline_code_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/downloadNamesApp"
@@ -451,10 +451,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="Установить Al Asma Ul Husna"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/baseline_download_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                         </LinearLayout>
                     </LinearLayout>
@@ -495,7 +495,7 @@
                                     android:layout_height="50dp"
                                     android:gravity="center"
                                     android:text="Ramadan"
-                                    android:textSize="20sp"
+                                    android:textSize="40sp"
                                     android:textStyle="bold" />
 
                                 <TextView
@@ -503,7 +503,7 @@
                                     android:layout_height="50dp"
                                     android:gravity="center"
                                     android:text="@string/from_tabiin"
-                                    android:textSize="20sp"
+                                    android:textSize="40sp"
                                     android:textStyle="bold" />
                             </LinearLayout>
                         </LinearLayout>
@@ -521,10 +521,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="Версия 3.0.0.0"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/ic_baseline_error_outline_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/sourceCodeBtnRamadan"
@@ -533,10 +533,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/source_code"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/ic_baseline_code_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/downloadRamadanApp"
@@ -545,10 +545,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="Установить Ramadan"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/baseline_download_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                         </LinearLayout>
                     </LinearLayout>
@@ -589,7 +589,7 @@
                                     android:layout_height="50dp"
                                     android:gravity="center"
                                     android:text="Counters"
-                                    android:textSize="20sp"
+                                    android:textSize="40sp"
                                     android:textStyle="bold" />
 
                                 <TextView
@@ -597,7 +597,7 @@
                                     android:layout_height="50dp"
                                     android:gravity="center"
                                     android:text="@string/from_tabiin"
-                                    android:textSize="20sp"
+                                    android:textSize="40sp"
                                     android:textStyle="bold" />
                             </LinearLayout>
                         </LinearLayout>
@@ -615,10 +615,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="Версия 3.0.0.0"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/ic_baseline_error_outline_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/sourceCodeBtnCounters"
@@ -627,10 +627,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/source_code"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/ic_baseline_code_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/downloadCountersApp"
@@ -639,10 +639,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="Установить Counters"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/baseline_download_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                         </LinearLayout>
                     </LinearLayout>
@@ -684,7 +684,7 @@
                                     android:layout_height="50dp"
                                     android:gravity="center"
                                     android:text="Al Istigfar"
-                                    android:textSize="20sp"
+                                    android:textSize="40sp"
                                     android:textStyle="bold" />
 
                                 <TextView
@@ -692,7 +692,7 @@
                                     android:layout_height="50dp"
                                     android:gravity="center"
                                     android:text="@string/from_tabiin"
-                                    android:textSize="20sp"
+                                    android:textSize="40sp"
                                     android:textStyle="bold" />
                             </LinearLayout>
                         </LinearLayout>
@@ -710,10 +710,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="Версия 1.0.0.0"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/ic_baseline_error_outline_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/sourceCodeBtnAlIstigfar"
@@ -722,10 +722,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/source_code"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/ic_baseline_code_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                             <com.google.android.material.button.MaterialButton
                                 android:id="@+id/downloadAlIstigfarApp"
@@ -734,10 +734,10 @@
                                 android:layout_height="wrap_content"
                                 android:text="Установить Al Istigfar"
                                 android:textAlignment="textStart"
-                                android:textSize="20sp"
+                                android:textSize="40sp"
                                 app:icon="@drawable/baseline_download_24"
                                 app:iconPadding="16dp"
-                                app:iconSize="24dp" />
+                                app:iconSize="44dp" />
 
                         </LinearLayout>
                     </LinearLayout>

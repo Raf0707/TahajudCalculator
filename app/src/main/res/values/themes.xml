@@ -2,7 +2,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.TahajudCalculator." parent="Theme.Material3.Light.NoActionBar">
+    <style name="Theme.TahajudCalculator" parent="Theme.Material3.Light.NoActionBar">
 
         <item name="colorPrimary">@color/md_theme_light_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
@@ -137,16 +137,6 @@
         <item name="rippleColor">@color/purple_49</item>
         <item name="android:textColor">@android:color/darker_gray</item>
         <item name="android:textSize">14sp</item>
-    </style>
-
-    <style name="Theme.AppTheme.SplashScreen" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@color/md_theme_light_onSurfaceVariant</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ramadan_icon_v</item>
-        <item name="windowSplashScreenAnimationDuration">3000</item>
-        <item name="android:textColor">@color/purple_300</item>
-        <item name="android:textAppearance">@style/ColorGreenIce</item>
-        <item name="bottomNavigationStyle">@style/BottomNavigationViewStyle</item>
-        <item name="postSplashScreenTheme">@style/Theme.TahajudCalculator</item>
     </style>
 
     <style name="ColorGreenIce" parent="Theme.TahajudCalculator" >
