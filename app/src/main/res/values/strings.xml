@@ -4,7 +4,7 @@
     <string name="rafail_url" translatable="false">https://github.com/Raf0707</string>
     <string name="mail_raf" translatable="false">raf_android-dev@mail.ru</string>
     <string name="source_code">Исходный код</string>
-    <string name="source_code_url" translatable="false">https://github.com/Raf0707/Al_Istigfar</string>
+    <string name="source_code_url" translatable="false">https://github.com/Raf0707/TahajudCalculator</string>
     <string name="from_tabiin">from Tabiin</string>
     <string name="tabiin" translatable="false">https://vk.com/club213851453</string>
     <string name="Raf_title">Рафаил Кикматулин</string>
@@ -51,7 +51,8 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="tabiin_android_dev" translatable="false">https://vk.com/@tabiin_muslim_planner-tabiin-android-development</string>
-    <string name="rateApp">https://apps.rustore.ru/app/ru.tabiin.ramadan</string>
+    <string name="rateApp">https://apps.rustore.ru/app/ru.tabiin.tahajudcalculator</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tabiin_android_develpment">https://vk.link/composabledev</string>
 </resources>
