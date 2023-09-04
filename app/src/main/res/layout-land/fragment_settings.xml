@@ -55,6 +55,7 @@
 
             <com.google.android.material.switchmaterial.SwitchMaterial
                 android:id="@+id/dynamicColorsSwitch"
+                style="@style/Widget.Material3.CompoundButton.MaterialSwitch"
                 android:enabled="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -64,6 +65,7 @@
 
             <com.google.android.material.switchmaterial.SwitchMaterial
                 android:id="@+id/addFollowSystemIconOnMain"
+                style="@style/Widget.Material3.CompoundButton.MaterialSwitch"
                 android:enabled="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

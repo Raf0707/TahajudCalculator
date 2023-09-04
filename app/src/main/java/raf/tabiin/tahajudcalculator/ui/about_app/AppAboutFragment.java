@@ -3,6 +3,7 @@ package raf.tabiin.tahajudcalculator.ui.about_app;
 import static raf.tabiin.tahajudcalculator.util.UtilFragment.changeFragment;
 
 import android.annotation.SuppressLint;
+import android.content.ActivityNotFoundException;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
@@ -144,7 +145,7 @@ public class AppAboutFragment extends Fragment {
         binding.otherAppsBtn.setOnLongClickListener(v -> {
             addOnClick(v, "Tabiin's Apps article link copied",
                     ClipData.newPlainText(getString(R.string.getContext),
-                            getString(R.string.tabiin_android_dev)));
+                            "https://apps.rustore.ru/developer/ZPBnoCoBczpBFPZK0munW8NSpRTEayCj"));
             return true;
         });
 
@@ -204,10 +205,22 @@ public class AppAboutFragment extends Fragment {
                         getString(R.string.tabiin),
                         R.color.purple_300));
 
-        binding.otherAppsBtn.setOnClickListener(v -> new CustomTabUtil()
-            .openCustomTab(getActivity(),
-                    getString(R.string.tabiin_android_dev),
-                    R.color.purple_300));
+        binding.otherAppsBtn.setOnClickListener(v -> {
+            String url = "https://apps.rustore.ru/developer/ZPBnoCoBczpBFPZK0munW8NSpRTEayCj";
+            Uri uri = Uri.parse(url);
+
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            intent.setPackage("com.android.chrome"); // замените на пакет вашего предпочитаемого браузера, если это не Chrome
+
+            try {
+                startActivity(intent);
+            } catch (ActivityNotFoundException e) {
+                // Если браузер не найден, откройте ссылку в стандартном браузере
+                intent.setPackage(null);
+                startActivity(intent);
+            }
+        });
 
         binding.settingsBtn.setOnClickListener(v -> {
             changeFragment(getActivity(),
