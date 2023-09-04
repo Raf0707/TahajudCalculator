@@ -144,7 +144,7 @@ public class AppAboutFragment extends Fragment {
         binding.otherAppsBtn.setOnLongClickListener(v -> {
             addOnClick(v, "Tabiin's Apps article link copied",
                     ClipData.newPlainText(getString(R.string.getContext),
-                            getString(R.string.tabiin_android_develpment)));
+                            getString(R.string.tabiin_android_dev)));
             return true;
         });
 
@@ -206,7 +206,7 @@ public class AppAboutFragment extends Fragment {
 
         binding.otherAppsBtn.setOnClickListener(v -> new CustomTabUtil()
             .openCustomTab(getActivity(),
-                    getString(R.string.tabiin_android_develpment),
+                    getString(R.string.tabiin_android_dev),
                     R.color.purple_300));
 
         binding.settingsBtn.setOnClickListener(v -> {
